@@ -2,10 +2,6 @@
 
 from calculator_1 import add, sub, mul, div
 
-
-
-
-
 def arg_calc(argv):
 
     n = len(argv) - 1
@@ -44,11 +40,7 @@ def arg_calc(argv):
 
         exit(1)
 
-
-
-
-
-if __name__ == "__main__":
+    if __name__ == "__main__":
 
     import sys
 
