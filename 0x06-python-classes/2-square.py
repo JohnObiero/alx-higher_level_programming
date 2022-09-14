@@ -2,15 +2,9 @@
 
 """Create a Class Square with size"""
 
-
-
-
-
 class Square:
 
     """Class - Square"""
-
-
 
     def __init__(self, size=0):
 

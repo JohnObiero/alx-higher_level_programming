@@ -2,15 +2,9 @@
 
 """Create a Class Square with size, method of area and getters & setters"""
 
-
-
-
-
 class Square:
 
     """Class - Square"""
-
-
 
     def __init__(self, size=0):
 
@@ -28,15 +22,11 @@ class Square:
 
             self.__size = size
 
-
-
     def area(self):
 
         """Method to get the area of the Square"""
 
         return (self.__size ** 2)
-
-
 
     @property
 
@@ -45,8 +35,6 @@ class Square:
         """Getter of the private attribute size"""
 
         return (self.__size)
-
-
 
     @size.setter
 

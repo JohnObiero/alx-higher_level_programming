@@ -12,15 +12,9 @@ Create a Class Square with:
 
 """
 
-
-
-
-
 class Square:
 
     """Class - Square"""
-
-
 
     def __init__(self, size=0):
 
@@ -39,14 +33,11 @@ class Square:
             self.__size = size
 
 
-
     def area(self):
 
         """Method to get the area of the Square"""
 
         return (self.__size ** 2)
-
-
 
     def my_print(self):
 
@@ -62,8 +53,6 @@ class Square:
 
                 print("#" * self.__size)
 
-
-
     @property
 
     def size(self):
@@ -71,8 +60,6 @@ class Square:
         """Getter of the private attribute size"""
 
         return (self.__size)
-
-
 
     @size.setter
 

@@ -11,16 +11,9 @@ Create a Class Square with:
 - getters & setters.
 
 """
-
-
-
-
-
 class Square:
 
     """Class - Square"""
-
-
 
     def __init__(self, size=0, position=(0, 0)):
 
@@ -30,15 +23,11 @@ class Square:
 
         self.position = position
 
-
-
     def area(self):
 
         """Method to get the area of the Square"""
 
         return (self.__size ** 2)
-
-
 
     def my_print(self):
 
@@ -59,8 +48,6 @@ class Square:
                 print(" " * self.position[0], end='')
 
                 print("#" * self.__size)
-
-
 
     @property
 
@@ -90,8 +77,6 @@ class Square:
 
             self.__size = value
 
-
-
     @property
 
     def position(self):
@@ -99,8 +84,6 @@ class Square:
         """Getter of Position"""
 
         return (self.__position)
-
-
 
     @position.setter
 
