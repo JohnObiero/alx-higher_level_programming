@@ -6,10 +6,6 @@ This is a Rectangle class.
 
 """
 
-
-
-
-
 class Rectangle:
 
     """
@@ -18,15 +14,11 @@ class Rectangle:
 
     """
 
-
-
     def __init__(self, width=0, height=0):
 
         self.__width = width
 
         self.__height = height
-
-
 
     @property
 
@@ -38,8 +30,6 @@ class Rectangle:
 
         return self.__width
 
-
-
     @property
 
     def height(self):
@@ -49,8 +39,6 @@ class Rectangle:
         """
 
         return self.__height
-
-
 
     @width.setter
 
@@ -65,7 +53,6 @@ class Rectangle:
             raise ValueError("width must be >= 0")
 
         self.__width = value
-
 
 
     @height.setter
