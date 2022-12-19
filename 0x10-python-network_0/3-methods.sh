@@ -1,5 +1,5 @@
 #!/bin/bash
 
-# Displays all HTTP methods the server will accept.
+# Script that displays all HTTP methods the server accepts
 
-curl -s -I "${1}" | grep "^Allow: .*" | cut -d " " -f 2-
+curl -sI "$1" | grep "Allow" | cut -d " " -f2-

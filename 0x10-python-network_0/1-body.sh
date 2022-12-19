@@ -1,5 +1,5 @@
 #!/bin/bash
 
-# Sends a GET request to the URL, and displays the body of the response
+# Script takes URL, sends GET request and displays body of response
 
-curl -s -L "${1}"
+curl -sL "$1"
